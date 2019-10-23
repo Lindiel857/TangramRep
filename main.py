@@ -1,3 +1,5 @@
+import turtle
+
 def square(x, y, size, colour, angle):
     # TODO: (Anna)
     pass
