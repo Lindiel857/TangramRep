@@ -22,7 +22,6 @@ def triangle(x, y, size, colour, angle):
     turtle.penup()
     turtle.home()
     turtle.done()
-    turtle.done()
     pass
 
 def rectangle(x, y, size, colour, angle):
