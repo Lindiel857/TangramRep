@@ -2,6 +2,23 @@ import turtle
 
 def square(x, y, size, colour, angle):
     # TODO: (Anna)
+    turtle.pencolor(colour)
+    turtle.fillcolor(colour)
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+    turtle.rt(angle)
+    turtle.begin_fill()
+    turtle.fd(size)
+    turtle.rt(90)
+    turtle.fd(size)
+    turtle.rt(90)
+    turtle.fd(size)
+    turtle.rt(90)
+    turtle.fd(size)
+    turtle.end_fill()
+    turtle.penup()
+    turtle.home()
     pass
 
 def triangle(x, y, size, colour, angle):
