@@ -38,8 +38,6 @@ def triangle(x, y, size, colour, angle):
     turtle.end_fill()
     turtle.penup()
     turtle.home()
-    turtle.done()
-    turtle.done()
     pass
 
 def rectangle(x, y, size, colour, angle):
@@ -65,7 +63,22 @@ def rectangle(x, y, size, colour, angle):
     pass
 
 def main():
+    # TODO: (Timothey) Figure 1
+    pass
+
+    # TODO: (Timothey) Figure 1
+    pass
+
     # TODO: (Anna) Figure 1
+    pass
+
+    # TODO: (Anna) Figure 1
+    pass
+
+    # TODO: (Daria) Figure 1
+    pass
+
+    # TODO: (Daria) Figure 1
     pass
 
 if __name__ == '__main__':
