@@ -74,6 +74,13 @@ def main():
     pass
 
     # TODO: (Timothey) Figure 2
+    triangle(-70.5, 0, 100, 'light slate blue', 45)
+    triangle(35.25, 35.35, 100, 'orange', 315)
+    triangle(-35.25, 105.75, 70.5, 'lime green', 0)
+    triangle(-35.25, 105.75, 50, 'yellow', 135)
+    triangle(0, 211.5, 50, 'blue', 45)
+    square(-25, 211.5, 50, 'cyan', 0)
+    rectangle(-35.25, 176.25, 50, 'purple', 45)
     pass
 
     # TODO: (Anna) Figure 3
