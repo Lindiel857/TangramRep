@@ -108,11 +108,23 @@ def main():
     # TODO: (Anna) Figure 4
     pass
 
-    # TODO: (Daria) Figure 5
-    pass
-
-    # TODO: (Daria) Figure 6
-    pass
+    
+    triangle(100, 0, 100, 'light slate blue', 270) 
+    triangle(0, 100, 100, 'orange', 90) 
+    triangle(0, 0, 70.5, 'lime green', 315) 
+    triangle(29.5, 100, 50, 'yellow', 45) 
+    triangle(29.5, 191, 50, 'blue', 0) 
+    square(29.5, 100, 50, 'cyan', 315) 
+    rectangle(-5.75, 135.25, 50, 'purple', 0)
+   
+    triangle(0, 0, 100, 'light slate blue', 0) 
+    triangle(100, 100, 100, 'orange', 180) 
+    triangle(0, 100, 70.5, 'lime green', 45) 
+    triangle(0, 100, 50, 'yellow', 0) 
+    triangle(50, 200, 50, 'blue', 90) 
+    square(0, 150, 50, 'cyan', 0) 
+    rectangle(100, 100, 50, 'purple', 315)
+    
     
     turtle.done()
 
