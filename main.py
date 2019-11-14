@@ -103,11 +103,26 @@ def main():
     sleeping_rectangle(-35.25, 176.25 + 80, 50, 'purple', 90)
 
     # TODO: (Anna) Figure 3
+    
+    triangle(0, 100, 100, 'light slate blue', 180)
+    triangle(250, 0, 100, 'orange', 270)
+    triangle(0, 100, 70.5, 'lime green', 135)
+    triangle(50, 100, 50, 'yellow', 90)
+    triangle(100, 50, 50, 'blue', 90)
+    square(100, 50, 50, 'cyan', 0)
+    sleeping_rectangle(0, 100, 50, 'purple', 135)
     pass
-
+    
     # TODO: (Anna) Figure 4
+    
+    triangle(-70.5, 0, 100, 'light slate blue', 45)
+    triangle(-50, 20.5, 100, 'orange', 0)
+    triangle(100, 70.5, 70.5, 'lime green', 225)
+    triangle(-100, 70.5, 50, 'yellow', 90)
+    triangle(100, 120.5, 50, 'blue', 180)
+    square(-100, 70.5, 50, 'cyan', 0)
+    rectangle(0, 70.5, 50, 'purple', 45)
     pass
-
     
     triangle(100, 0, 100, 'light slate blue', 270) 
     triangle(0, 100, 100, 'orange', 90) 
