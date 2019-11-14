@@ -1,7 +1,6 @@
 import turtle
 
 def square(x, y, size, colour, angle):
-    # TODO: (Anna)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
     turtle.penup()
@@ -22,7 +21,6 @@ def square(x, y, size, colour, angle):
     pass
 
 def triangle(x, y, size, colour, angle):
-    # TODO: (Timothey)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
     turtle.penup()
@@ -41,7 +39,6 @@ def triangle(x, y, size, colour, angle):
     pass
 
 def rectangle(x, y, size, colour, angle):
-    # TODO: (Daria)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
     turtle.penup()
@@ -61,6 +58,27 @@ def rectangle(x, y, size, colour, angle):
     turtle.penup()
     turtle.home()
     pass
+
+def sleeping_rectangle(x, y, size, colour, angle):
+    turtle.pencolor(colour)
+    turtle.fillcolor(colour)
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+    turtle.lt(90)
+    turtle.rt(angle)
+    turtle.begin_fill()
+    turtle.fd(size * 1.42)
+    turtle.lt(45)
+    turtle.fd(size)
+    turtle.lt(135)
+    turtle.fd(size * 1.42)
+    turtle.lt(45)
+    turtle.fd(size)
+    turtle.lt(135)
+    turtle.end_fill()
+    turtle.penup()
+    turtle.home()
 
 def main():
     # TODO: (Timothey) Figure 1
