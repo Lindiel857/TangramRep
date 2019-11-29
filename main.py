@@ -19,7 +19,6 @@ def square(x, y, size, colour, angle):
     turtle.end_fill()
     turtle.penup()
     turtle.home()
-    pass
 
 def triangle(x, y, size, colour, angle):
     turtle.pencolor(colour)
@@ -38,7 +37,6 @@ def triangle(x, y, size, colour, angle):
     turtle.end_fill()
     turtle.penup()
     turtle.home()
-    pass
 
 def rectangle(x, y, size, colour, angle):
     turtle.pencolor(colour)
@@ -60,7 +58,6 @@ def rectangle(x, y, size, colour, angle):
     turtle.end_fill()
     turtle.penup()
     turtle.home()
-    pass
 
 def sleeping_rectangle(x, y, size, colour, angle):
     turtle.pencolor(colour)
